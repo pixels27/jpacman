@@ -51,9 +51,7 @@ public class MapParserTest {
 
     /**
      * Test for the parseMap method (bad map).
-     * checkMapFormat
-     * Check the correctness of the map lines in the text.
-     * param text Map to be checked
+     * checkMapFormat -> Check the correctness of the map lines in the text.
      * throws PacmanConfigurationException if map is not OK.
      */
 
