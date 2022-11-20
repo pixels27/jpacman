@@ -66,10 +66,6 @@ public class MapParserTest {
                 assertNotNull(levelFactory);
                 MapParser mapParser = new MapParser(levelFactory, boardFactory);
                 ArrayList<String> map = new ArrayList<>();
-                /*
-                Create a map with inconsistent size between
-                each row or contain invalid characters
-                */
                 map.add("############");
                 map.add("#p        G#");
                 map.add("############");
